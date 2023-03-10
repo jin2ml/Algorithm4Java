@@ -10,6 +10,11 @@ public class SortUtils {
         Arrays.stream(arr2).forEach(System.out::println);
     }
 
+    /**
+     * 冒泡排序
+     * @param arr
+     * @return
+     */
     public static int[] bubbleSort(int[] arr){
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
@@ -26,6 +31,11 @@ public class SortUtils {
         return arr;
     }
 
+    /**
+     * 选择排序
+     * @param arr
+     * @return
+     */
     public static int[] choiceSort(int[] arr){
         int count = 0;
         for (int i = 0; i < arr.length; i++) {
